@@ -26,5 +26,14 @@ b_slow = dict(index=2, imie='Stefan2', nazwisko='Stefanowicz2', wiek=20, email='
 c_slow = dict(index=3, imie='Stefan3', nazwisko='Stefanowicz3', wiek=20, email='b@b.pl',
               rok_ur=1998, adres='afsdafas')
 
+#13
+# 13
+jakieslowniki = [{"cos": 1, "cos2": "costam"}, {"cos3": 3, "cos4": 12123310}, {"cos5": 6, 6: "asdfasdfasdfasdfasdf"}]
+napis = ""
+for x in jakieslowniki:
+    for y in x.keys():
+        napis += str(x[y]) + " "
+print(napis)
+
 
 
